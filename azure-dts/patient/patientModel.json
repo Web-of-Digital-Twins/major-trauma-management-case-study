@@ -1,0 +1,35 @@
+{
+    "@id":"dtmi:io:github:wodt:Patient;1",
+    "@type":"Interface",
+    "@context":"dtmi:dtdl:context;2",
+    "displayName":"Patient",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "heart_rate",
+            "schema": "integer"
+        },
+        {
+            "@type": "Property",
+            "name": "diastolic_blood_pressure",
+            "schema": "integer"
+        },
+        {
+            "@type": "Property",
+            "name": "systolic_blood_pressure",
+            "schema": "integer"
+        },
+        {
+            "@type":"Relationship",
+            "name":"rel_of_ongoing_trauma",
+            "displayName":"The Patient data refers to the Ongoing Trauma",
+            "target":"dtmi:io:github:wodt:OngoingTrauma;1"
+        },
+        {
+            "@type":"Relationship",
+            "name":"rel_refer_to_healthcare_user",
+            "displayName":"The Patient data refers to the Healthcare User",
+            "target":"dtmi:io:github:wodt:ExternalDT;1"
+        }
+    ]
+}
