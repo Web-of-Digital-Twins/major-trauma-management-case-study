@@ -1,0 +1,11 @@
+{
+  "definition": "https://gist.githubusercontent.com/AndreaGiulianelli/81f3bb75ee863aa51c244cc133a1a5ea/raw/e53018f2cc21d3579806f716edca13561923e0f8/healthcareUserDittoThingTM.tm.jsonld",
+  "attributes": {
+    "taxId": "DOEJHN85L15H123K",
+    "name": "John",
+    "surname": "Doe",
+    "birthday": "1985-07-15"
+  },
+  "features": {
+  }
+}
