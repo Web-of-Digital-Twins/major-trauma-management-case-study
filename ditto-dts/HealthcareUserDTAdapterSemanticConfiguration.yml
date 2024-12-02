@@ -1,0 +1,15 @@
+digitalTwinType: "http://xmlns.com/foaf/0.1/Person"
+
+properties:
+    - name: "taxId"
+      domainTag: "http://schema.org/taxID"
+    - name: "name"
+      domainTag: "http://xmlns.com/foaf/0.1/givenName"
+    - name: "surname"
+      domainTag: "http://xmlns.com/foaf/0.1/familyName"
+    - name: "birthday"
+      domainTag: "http://xmlns.com/foaf/0.1/birthday"
+
+relationships:
+
+actions:
