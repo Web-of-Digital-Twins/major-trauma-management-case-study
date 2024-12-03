@@ -86,7 +86,7 @@ public class MissionPhysicalAdapter extends PhysicalAdapter {
 
     private void emulatedDevice() {
         try {
-            Thread.sleep(5000);
+            Thread.sleep(20000);
 
             final var ambulanceInstance = vehicleRelationship.createRelationshipInstance(this.ambulanceUri);
             publishPhysicalAssetRelationshipCreatedWldtEvent(
