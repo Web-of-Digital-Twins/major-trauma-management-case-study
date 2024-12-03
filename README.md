@@ -14,16 +14,6 @@ This repository contains the Digital Twins and the configuration needed to run t
 ### [Eclipse Ditto](https://eclipse.dev/ditto/)
   - Healthcare User DT
 
-## Port mappings
-- *WoDT Platform*: 4000
-- *Healthcare User DT*: 3000
-- *Mission DT*: 3001
-- *Ambulance DT*: 3002
-- *Rescuer DT*: 3003
-- *Patient DT*: 5000 (same Azure adapter, `/patient` relative path)
-- *Ongoing DT*: 5000 (same Azure adapter, `/trauma` relative path)
-
-
 ## Usage
 ### Prerequisites
 - Make sure you have a running and active version of Docker and docker compose.
@@ -45,3 +35,13 @@ This repository contains the Digital Twins and the configuration needed to run t
 
 ## The Major Trauma Management journey
 1. 
+
+
+## Port mappings
+- *WoDT Platform*: 4000
+- *Healthcare User DT*: 3000
+- *Mission DT*: 3001
+- *Ambulance DT*: 3002
+- *Rescuer DT*: 3003
+- *Patient DT*: 5000 (same Azure adapter, `/patient` relative path)
+- *Ongoing DT*: 5000 (same Azure adapter, `/trauma` relative path)
