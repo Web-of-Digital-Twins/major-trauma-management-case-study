@@ -40,7 +40,6 @@ services:
       DITTO_PASSWORD: ${DITTO_PASSWORD}
       DITTO_THING_ID: wodt:healthcareuser
       YAML_ONTOLOGY_PATH: ./ditto-dts/HealthcareUserDTAdapterSemanticConfiguration.yml
-      PLATFORM_URI: http://localhost:4000
       PHYSICAL_ASSET_ID: DOEJHN85L15H123K
       DIGITAL_TWIN_URI: http://localhost:3000
       DIGITAL_TWIN_EXPOSED_PORT: 3000
